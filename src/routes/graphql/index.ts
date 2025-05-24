@@ -4,7 +4,7 @@ import { graphql } from 'graphql';
 import { schema } from './schema.js';
 
 const plugin: FastifyPluginAsyncTypebox = async (fastify) => {
-  const { prisma } = fastify;
+  // const { prisma } = fastify;
 
   fastify.route({
     url: '/',
